@@ -1,38 +1,44 @@
- 
+
+@font-face {
+    font-family: "FT88";
+    src: url("fonts/FT88-Regular.woff2") format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FT88";
+    src: url("fonts/FT88-Bold.woff2") format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "FT88";
+    src: url("fonts/FT88-Italic.woff2") format('woff2');
+    font-weight: italic;
+}
+
+
 body    {
     margin:20px, 10px;
-}
-
-@font-face {
     font-family: "FT88", garamond, Times New Roman, Times, serif;
-    src: url("fonts/FT88-Regular.woff2") format('woff2');
-}
-
-@font-face {
-  font-family: "FT88";
-  src: url("fonts/FT88-Bold.woff2") format('woff2');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "FT88";
-  src: url("fonts/FT88-Italic.woff2") format('woff2');
-  font-weight: italic;
-}
-
+    font-weight:normal;
     color:#a39898;
     font-size:13pt;
     line-height:14pt;
     background-color: #f3efe5;
+    text-align:center;
 }
 
 /*links*/
 a   {
+    font-family:"FT88";
     font-weight:bold;
     color:#6F6262;
-    
 }
+
 a:hover {
+    font-family:"FT88";
+    font-weight:bold;
     text-decoration:underline;
     color:#564D4D;
 }
