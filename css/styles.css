@@ -13,6 +13,11 @@ img {
     object-fit:scale-down;
 }
 
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
 .image-container {
      background-color: #f3efe5;
 }
