@@ -1,10 +1,25 @@
  
 body    {
     margin:20px, 10px;
+}
 
-    @font-face
-    font-family: FT88-Regular, garamond, 'Hoefler Text', Times New Roman, Times, serif;
-    src: url('FT88-REGULAR.woff');
+@font-face {
+    font-family: "FT88", garamond, Times New Roman, Times, serif;
+    src: url("fonts/FT88-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "FT88";
+  src: url("fonts/FT88-Bold.woff2") format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "FT88";
+  src: url("fonts/FT88-Italic.woff2") format('woff2');
+  font-weight: italic;
+}
+
     color:#a39898;
     font-size:13pt;
     line-height:14pt;
