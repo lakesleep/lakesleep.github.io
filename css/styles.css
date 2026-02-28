@@ -1,7 +1,7 @@
 body    {
     margin:20px, 10px;
     font-family: "FT88", garamond, "Times New Roman", serif;
-    font-weight:normal;
+    font-weight:italic;
     color:#a39898;
     font-size:13pt;
     line-height:14pt;
@@ -38,5 +38,5 @@ a:hover {
 @font-face {
     font-family: "FT88";
     src: url("fonts/FT88-Italic.woff2") format('woff2');
-    font-style: italic;
+    font-weight: italic;
 }
