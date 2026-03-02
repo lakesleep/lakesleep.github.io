@@ -27,7 +27,8 @@ body    {
     display:inline;
     border: 2px solid #a39898;
     padding: 6px;
-    
+    letter-spacing:2px;
+    line-height:3;
 }
 
 .content {
