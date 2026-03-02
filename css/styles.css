@@ -15,7 +15,6 @@ body    {
 
 .menu u1 {
     width:100%;
-    background-color: #ffffff;
     text-align:center;
     margin:0;
     padding:0;
@@ -24,6 +23,7 @@ body    {
 
 .menu li {
     display:inline;
+    background-color: #ffffff;
 }
 
 .content {
