@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>lake sleep - illustration</title>
+  <title>lake sleep - photography</title>
 
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/print.css" media="print">
 
   <meta name="description" content="lake is sleeping">
-  <meta property="og:title" content="lake sleep - illustration">
+  <meta property="og:title" content="lake sleep - photography">
   <meta property="og:description" content="lake is sleeping">
   <meta property="og:image" content="img/metaimg.jpg">
   <meta property="og:locale" content="en_GB">
@@ -31,39 +31,19 @@
 </menu>
 
 <div class="content">
-<h2>lake sleep illustration</h2>
-<p>...more to be added...</p>
+<h2>photography</h2>
+<p>photographs taken on 35mm film.</p>
 <p>
 <img 
-    src="img/endmachinepatch.jpg" 
-    width="1140" 
-    height="1140"
+    src="img/bombaybeach.jpg" 
+    width="1200" 
+    height="807"
     class="responsive"
     style="object-fit: scale-down;"
-    alt="black screen printed patch">
+    alt="cars">
 <p>
-screen printed patch "END MACHINE"
+bombay beach
 <p>
-<p>
-<img 
-    src="img/cementfacory_risoprint_ed1.jpeg" 
-    width="963" 
-    height="1199"
-    class="responsive"
-    style="object-fit: scale-down;"
-    alt="riso printed illustration of a cement factory">
-<p>
-cement factory
-<p>
-<p>
-<img 
-    src="img/slowdripth.JPG" 
-    width="1106" 
-    height="1514"
-    class="responsive"
-    style="object-fit: scale-down;"
-    alt="riso printed illustration of two girls surrounding a dripping flower">
-slow drip
 <p>
 <p>...site under construction...</p>
 <p>
