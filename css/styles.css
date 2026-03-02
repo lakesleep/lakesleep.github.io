@@ -14,21 +14,22 @@ body    {
 }
 
 .menu menu {
-    display:block;    
+
+}
+
+.menu li {
+    display:inline-block;
+    border: 2px solid #a39898;
+    padding: 6px;
+    letter-spacing:2px;
+    line-height:3;
+    
     width:100%;
     text-align:center;
     margin:0;
     padding:5px;
     list-style-type:none;
     border-bottom-style: 1px solid #a39898;
-}
-
-.menu li {
-    display:inline;
-    border: 2px solid #a39898;
-    padding: 6px;
-    letter-spacing:2px;
-    line-height:3;
 }
 
 .content {
