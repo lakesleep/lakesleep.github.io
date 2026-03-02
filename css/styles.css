@@ -25,8 +25,8 @@ body    {
 
 .menu li {
     display:inline;
-    border: 1px solid #a39898;
-    padding: 3px;
+    border: 2px solid #a39898;
+    padding: 5px;
     
 }
 
@@ -56,7 +56,7 @@ img {
 /*links*/
 a   {
     font-family:"FT88";
-    font-weight:bold;
+    font-weight:normal;
     color:#6F6262;
 }
 
