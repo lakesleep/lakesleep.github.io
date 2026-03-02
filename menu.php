@@ -1,5 +1,5 @@
 <u1>
-<li><a href="https://lakesleep.ing/illustration.shtml">illustration</a></li>
+<li><a href="illustration.html">illustration</a></li>
 <li><a href="https://aurafile.tumblr.com/">insp➶</a></li>
 <li><a href="https://lakesleep.etsy.com/">shop➶</a></li>
 </u1>
