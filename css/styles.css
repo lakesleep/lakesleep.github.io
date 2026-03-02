@@ -13,7 +13,7 @@ body    {
     display: flex;
 }
 
-.menu u1 {
+.menu menu {
     display:block;    
     width:100%;
     text-align:center;
