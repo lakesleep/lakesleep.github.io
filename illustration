@@ -4,28 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>lakesleep.ing</title>
+  <title>lake sleep - illustration</title>
 
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/print.css" media="print">
 
   <meta name="description" content="lake is sleeping">
-  <meta property="og:title" content="lake sleep website">
+  <meta property="og:title" content="lake sleep - illustration">
   <meta property="og:description" content="lake is sleeping">
   <meta property="og:image" content="img/metaimg.jpg">
   <meta property="og:locale" content="en_GB">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:url" content="https://www.lakesleep.ing">
-  <link rel="canonical" href="https://www.lakesleep.ing">
+  <meta property="og:url" content="https://www.lakesleep.ing/illustration">
+  <link rel="canonical" href="https://www.lakesleep.ing/illustration">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <meta name="theme-color" content="5b937a">
 </head>
 
 <body>
+<!--#include file="menu.txt" -->
+
 <div style="text-align:center;">
-<h2>welcome to lake's website</h2>
-<p>...lake is sleeping...</p>
+<h2>lake sleep illustration</h2>
+<p>...more to be added...</p>
 <p>
 <img 
     src="img/slowdrip.JPG" 
@@ -36,7 +38,7 @@
     alt="riso printed illustration of two girls surrounding a dripping flower">
 <p>
 <p>...site under construction...</p>
-<p>links :: <a href="https://aurafile.tumblr.com/">insp➶</a> : <a href="https://lakesleep.etsy.com/">shop➶</a></p>
+<p>
 <br>
 </div>
 </body>
