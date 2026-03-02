@@ -24,8 +24,8 @@ body    {
 
 .menu li {
     display:inline;
-    padding: "3px";
-    background-color: #ffffff;
+    border: 1px solid #a39898;
+    padding: 3px;
     
 }
 
