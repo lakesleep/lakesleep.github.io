@@ -18,8 +18,9 @@ body    {
     width:100%;
     text-align:center;
     margin:0;
-    padding:0;
+    padding:5px;
     list-style-type:none;
+    border-bottom-style: 1px solid #a39898;
 }
 
 .menu li {
