@@ -5,8 +5,12 @@
 </u1>
 
 #menu u1 {
-    margin:0;
-    padding:0;]
-    list-style-type:none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
     border-right-style:solid;
 }
