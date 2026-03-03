@@ -26,8 +26,14 @@
 
 <menu>
 <div class="menu">
-<li><a href="illustration.html">illustration</a></li>   <li><a href="photo.html">photography</a></li>   <li><a href="https://aurafile.tumblr.com/">insp➶</a></li>   <li><a href="https://lakesleep.etsy.com/">shop➶</a></li>
-</div>
+<span id="menu"></span>
+          <script type="text/javascript">
+            fetch("/menu-default")
+            .then(response => response.text())
+            .then(data => document.getElementById("menu").innerHTML = data)
+            .catch(error => console.error(error));
+          </script>
+</div> <!-- class="menu"-->
 </menu>
 
 <div class="content">
