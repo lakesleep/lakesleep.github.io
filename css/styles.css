@@ -33,9 +33,9 @@ body    {
     padding: 10px;
     text-align:center;}
 
-#blockwhite {
+#bordertopwhite {
     padding: 10px;
-    border-block: 2px solid white;
+    border-top: 2px solid white;
 }
 
 img {
