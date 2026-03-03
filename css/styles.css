@@ -33,6 +33,11 @@ body    {
     padding: 10px;
     text-align:center;}
 
+#blockwhite {
+    padding: 10px;
+    border-block: 2px solid white;
+}
+
 img {
     object-fit:scale-down;
 }
