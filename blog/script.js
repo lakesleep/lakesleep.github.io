@@ -60,8 +60,8 @@ if ( url.includes("blog/posts/") ) {
 }
 
 //Generate the Header HTML, a series of list items containing links.
-let headerHTML = '<ul> <li>:<a href="' + relativePath + '/blogindex.html">blog home</a></li>'+ 
-'<li>:<a href="' + relativePath + '/archive.html">archive</a></li>' +
+let headerHTML = '<ul> <li>:<a href="' + relativePath + '/blogindex.html">blog home</a>:</li>'+ 
+'<li>:<a href="' + relativePath + '/archive.html">archive</a>:</li>' +
 '<li>:<a href="/index.html">back to main site</a>:</li> </ul>';
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
