@@ -5,7 +5,7 @@ body {
 	background-position: top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "FT88", garamond, "Times New Roman", serif;
   margin: 0;
 }
@@ -44,6 +44,12 @@ img {
   margin-top: 0;
   font-size: 0.9em;
   font-style: italic;
+}
+
+a   {
+    font-family:"FT88";
+    font-weight:normal;
+    color:#6F6262;
 }
 
 a:hover { 
@@ -143,19 +149,19 @@ h1, h2, h3, h4, h5 {
 
 @font-face {
     font-family: "FT88";
-    src: url("./css/fonts/FT88-Regular.woff2") format('woff2');
+    src: url("../css/fonts/FT88-Regular.woff2") format('woff2');
     font-weight: normal;
 }
 
 @font-face {
     font-family: "FT88";
-    src: url("./css/fonts/FT88-Bold.woff2") format('woff2');
+    src: url("../css/fonts/FT88-Bold.woff2") format('woff2');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "FT88-italic";
-    src: url("./css/fonts/FT88-Italic.woff2") format('woff2');
+    src: url("../css/fonts/FT88-Italic.woff2") format('woff2');
     font-style: italic;
 }
 
