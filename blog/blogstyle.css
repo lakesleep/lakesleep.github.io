@@ -47,7 +47,10 @@ img {
 }
 
 a:hover { 
-  background-color: #eecdc2;
+    font-family:"FT88";
+    font-weight:bold;
+    text-decoration:underline;
+    color:#564D4D;
 }
 
 h1, h2, h3, h4, h5 {
@@ -103,7 +106,6 @@ h1, h2, h3, h4, h5 {
   font-family:"FT88";
   font-weight:bold;
   text-decoration:underline;
-  color:#564D4D;
 }
 
 /*POST LIST STYLE*/
@@ -141,19 +143,19 @@ h1, h2, h3, h4, h5 {
 
 @font-face {
     font-family: "FT88";
-    src: url("../fonts/FT88-Regular.woff2") format('woff2');
+    src: url("./css/fonts/FT88-Regular.woff2") format('woff2');
     font-weight: normal;
 }
 
 @font-face {
     font-family: "FT88";
-    src: url("../fonts/FT88-Bold.woff2") format('woff2');
+    src: url("./css/fonts/FT88-Bold.woff2") format('woff2');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "FT88-italic";
-    src: url("../fonts/FT88-Italic.woff2") format('woff2');
+    src: url("./css/fonts/FT88-Italic.woff2") format('woff2');
     font-style: italic;
 }
 
