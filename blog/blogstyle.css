@@ -1,7 +1,7 @@
 
 body {
-  background-color: #0f130b;
-  background-image: url('blog/images/bg_hikingShoes.png');
+  background-color: #dad4d4;
+  background-image: url('images/bg_hikingShoes.png');
 	background-position: top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -60,7 +60,6 @@ h1, h2, h3, h4, h5 {
   margin: 3em auto;
   width: 90%;
 	max-width: 700px;
-	background-color: #f3efe5;
   color: #353535; 
   outline-color: #c1c0b5;
   outline-style: ridge;
@@ -141,19 +140,19 @@ h1, h2, h3, h4, h5 {
 
 @font-face {
     font-family: "FT88";
-    src: url("fonts/FT88-Regular.woff2") format('woff2');
+    src: url("./fonts/FT88-Regular.woff2") format('woff2');
     font-weight: normal;
 }
 
 @font-face {
     font-family: "FT88";
-    src: url("fonts/FT88-Bold.woff2") format('woff2');
+    src: url("./fonts/FT88-Bold.woff2") format('woff2');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "FT88-italic";
-    src: url("fonts/FT88-Italic.woff2") format('woff2');
+    src: url("./fonts/FT88-Italic.woff2") format('woff2');
     font-style: italic;
 }
 
