@@ -1,12 +1,12 @@
 
 body {
   background-color: #0f130b;
-  background-image: url('images/bg_hikingShoes.png');
+  background-image: url('blog/images/bg_hikingShoes.png');
 	background-position: top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-  font-size: 20px;
-  font-family: "Times New Roman";
+  font-size: 18px;
+  font-family: "FT88", garamond, "Times New Roman", serif;
   margin: 0;
 }
 
@@ -51,8 +51,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #714e54;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #a39898;
+  font-family: "FT88-italic", "FT88", garamond, "Times New Roman", serif;
 }
 
 /*#CONTAINER is the rectangle that contains everything but the background!*/
@@ -60,11 +60,11 @@ h1, h2, h3, h4, h5 {
   margin: 3em auto;
   width: 90%;
 	max-width: 700px;
-	background-color: #efefef;
+	background-color: #f3efe5;
   color: #353535; 
   outline-color: #c1c0b5;
   outline-style: ridge;
-  outline-width: 4px;
+  outline-width: 2px;
   outline-offset: 0;
 }
 
@@ -75,11 +75,11 @@ h1, h2, h3, h4, h5 {
 
 /*HEADER STYLE*/
 #header {
-  background-color: #563d41;
+  background-color: #f3efe5;
   padding: 0 5%;
   border-color: #c1c0b5 ;
   border-style: ridge;
-  border-width: 0 0 4px 0;
+  border-width: 0 0 2px 0;
 }
 #header ul {
   list-style-type: none;
@@ -94,12 +94,16 @@ h1, h2, h3, h4, h5 {
   margin-top: 0.2em;
 }
 #header li a {
-  color: white;
+  color: #6F6262;
+  font-family:"FT88";
   text-decoration: none;
   background-color: inherit;
 }
 #header li a:hover {
-  text-decoration: underline;
+  font-family:"FT88";
+  font-weight:bold;
+  text-decoration:underline;
+  color:#564D4D;
 }
 
 /*POST LIST STYLE*/
@@ -134,3 +138,22 @@ h1, h2, h3, h4, h5 {
   font-size: 0.8em;
   padding: 0 5% 10px 5%;
 }
+
+@font-face {
+    font-family: "FT88";
+    src: url("fonts/FT88-Regular.woff2") format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FT88";
+    src: url("fonts/FT88-Bold.woff2") format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "FT88-italic";
+    src: url("fonts/FT88-Italic.woff2") format('woff2');
+    font-style: italic;
+}
+
