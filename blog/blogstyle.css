@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5 {
   width: 90%;
 	max-width: 700px;
   color: #353535; 
+  background-color: #dad4d4;
   outline-color: #c1c0b5;
   outline-style: ridge;
   outline-width: 2px;
@@ -74,7 +75,7 @@ h1, h2, h3, h4, h5 {
 
 /*HEADER STYLE*/
 #header {
-  background-color: #f3efe5;
+  background-color: #dad4d4;
   padding: 0 5%;
   border-color: #c1c0b5 ;
   border-style: ridge;
@@ -140,19 +141,19 @@ h1, h2, h3, h4, h5 {
 
 @font-face {
     font-family: "FT88";
-    src: url("./fonts/FT88-Regular.woff2") format('woff2');
+    src: url("../fonts/FT88-Regular.woff2") format('woff2');
     font-weight: normal;
 }
 
 @font-face {
     font-family: "FT88";
-    src: url("./fonts/FT88-Bold.woff2") format('woff2');
+    src: url("../fonts/FT88-Bold.woff2") format('woff2');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "FT88-italic";
-    src: url("./fonts/FT88-Italic.woff2") format('woff2');
+    src: url("../fonts/FT88-Italic.woff2") format('woff2');
     font-style: italic;
 }
 
