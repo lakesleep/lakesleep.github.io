@@ -66,7 +66,7 @@ let headerHTML = '<ul> <li><a href="' + relativePath + '/blogindex.html">blog ho
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
-let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>zonelets</a></p>";
+let footerHTML = "<hr><p><img src="..img/water_dividers_transparent_3.png" class="responsive" style="object-fit: scale-down;"/></p><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>zonelets</a></p>";
 
 //To do the following stuff, we want to know where we are in the posts array (if we're currently on a post page).
 let currentIndex = -1;
