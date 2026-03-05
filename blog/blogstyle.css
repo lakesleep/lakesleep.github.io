@@ -44,17 +44,18 @@ img {
 .caption {
   margin-top: 0;
   font-size: 0.9em;
-  font-style: italic;
+  font-family: "FT88-italic", garamond, "Times New Roman", serif;
 }
 
 a   {
-    font-family:"FT88";
+    font-family:"FT88", garamond, "Times New Roman", serif;
     font-weight:normal;
+    text-decoration:underline;
     color:#6F6262;
 }
 
 a:hover { 
-    font-family:"FT88";
+    font-family:"FT88", garamond, "Times New Roman", serif;
     font-weight:bold;
     text-decoration:underline;
     color:#564D4D;
@@ -62,7 +63,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #a39898;
-  font-family: "FT88-italic", "FT88", garamond, "Times New Roman", serif;
+  font-family: "FT88-italic", garamond, "Times New Roman", serif;
 }
 
 /*#CONTAINER is the rectangle that contains everything but the background!*/
@@ -105,12 +106,12 @@ h1, h2, h3, h4, h5 {
 }
 #header li a {
   color: #6F6262;
-  font-family:"FT88";
-  text-decoration: none;
+  font-family:"FT88", garamond, "Times New Roman", serif;
+  text-decoration: underline;
   background-color: inherit;
 }
 #header li a:hover {
-  font-family:"FT88";
+  font-family:"FT88", garamond, "Times New Roman", serif;
   font-weight:bold;
   text-decoration:underline;
 }

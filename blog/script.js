@@ -60,13 +60,13 @@ if ( url.includes("blog/posts/") ) {
 }
 
 //Generate the Header HTML, a series of list items containing links.
-let headerHTML = '<ul> <li>:<a href="' + relativePath + '/blogindex.html">blog home</a>:</li>'+ 
-'<li>:<a href="' + relativePath + '/archive.html">archive</a>:</li>' +
-'<li>:<a href="/index.html">back to main site</a>:</li> </ul>';
+let headerHTML = '<ul> <li><a href="' + relativePath + '/blogindex.html">blog home</a></li>'+ 
+'<li><a href="' + relativePath + '/archive.html">archive</a></li>' +
+'<li><a href="/index.html">back to main site</a></li> </ul>';
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
-let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a></p>";
+let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>zonelets</a></p>";
 
 //To do the following stuff, we want to know where we are in the posts array (if we're currently on a post page).
 let currentIndex = -1;
@@ -151,7 +151,7 @@ for ( let i = 0; i < postsArray.length; i++ ) {
 postListHTML += "</ul>";
 
 //Generate the Recent Post List HTML, which can be shown on the home page (or wherever you want!)
-let recentPostsCutoff = 3; //Hey YOU! Change this number to set how many recent posts to show before cutting it off with a "more posts" link.
+let recentPostsCutoff = 5; //Hey YOU! Change this number to set how many recent posts to show before cutting it off with a "more posts" link.
 let recentPostListHTML = "<h2>Recent Posts:</h2><ul>";
 let numberOfRecentPosts = Math.min( recentPostsCutoff, postsArray.length );
 for ( let i = 0; i < numberOfRecentPosts; i++ ) {
@@ -178,14 +178,14 @@ if ( postsArray.length < 2 ) {
   nextprevHTML = '<a href="' + relativePath + '/blogindex.html">Home</a>';
 } else if ( currentIndex === 0 ) {
   prevlink = postsArray[currentIndex + 1][0];
-  nextprevHTML = '<a href="' + relativePath + '/blogindex.html">Home</a> | <a href="'+ relativePath + '/' + prevlink +'">Previous Post \u00BB</a>';
+  nextprevHTML = '<a href="' + relativePath + '/blogindex.html">blog home</a> | <a href="'+ relativePath + '/' + prevlink +'">previous post \u00BB</a>';
 } else if ( currentIndex === postsArray.length - 1 ) {
   nextlink = postsArray[currentIndex - 1][0];
-  nextprevHTML = '<a href="' + relativePath + '/' + nextlink +'">\u00AB Next Post</a> | <a href="' + relativePath + '/blogindex.html">Home</a>';
+  nextprevHTML = '<a href="' + relativePath + '/' + nextlink +'">\u00AB next post</a> | <a href="' + relativePath + '/blogindex.html">blog home</a>';
 } else if ( 0 < currentIndex && currentIndex < postsArray.length - 1 ) {
   nextlink = postsArray[currentIndex - 1][0];
   prevlink = postsArray[currentIndex + 1][0];
-  nextprevHTML = '<a href="' + relativePath + '/'+ nextlink +'">\u00AB Next Post</a> | <a href="' + relativePath + '/blogindex.html">Home</a> | <a href="' + relativePath + '/'+ prevlink +'">Previous Post \u00BB</a>';
+  nextprevHTML = '<a href="' + relativePath + '/'+ nextlink +'">\u00AB next post</a> | <a href="' + relativePath + '/blogindex.html">blog home</a> | <a href="' + relativePath + '/'+ prevlink +'">previous post \u00BB</a>';
 }
 
 //-----------------------------
