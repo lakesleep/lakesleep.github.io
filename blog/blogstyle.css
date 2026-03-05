@@ -45,6 +45,7 @@ img {
   margin-top: 0;
   font-size: 0.9em;
   font-family: "FT88-italic", garamond, "Times New Roman", serif;
+  font-style: italic;
 }
 
 a   {
@@ -64,6 +65,7 @@ a:hover {
 h1, h2, h3, h4, h5 {
   color: #a39898;
   font-family: "FT88-italic", garamond, "Times New Roman", serif;
+  font-style: italic;
 }
 
 /*#CONTAINER is the rectangle that contains everything but the background!*/
