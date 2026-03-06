@@ -53,6 +53,7 @@ img {
   position: relative;
   text-align: center;
   color: #f3efe5;
+  object-fit: scale-down;
 }
 
 .centered {
