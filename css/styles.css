@@ -83,7 +83,7 @@ img {
   display: grid;
   grid-template-areas: "a a";
   gap: 10px;
-  grid-auto-columns: 200px;
+  grid-auto-columns: 555px;
 }
 
 /* css for buttons end */
