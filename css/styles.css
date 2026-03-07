@@ -64,28 +64,6 @@ img {
   transform: translate(-50%, -50%);
 }
 
-.centered a {
-  text-align:center;
-  font-family:"FT88";
-  font-weight:normal;
-  color:#6F6262;
-  text-shadow: white 0px 0px 10px;
-}
-
-.centered a:hover {
-  font-family:"FT88";
-  font-weight:bold;
-  color:#564D4D;
-  text-shadow: white 0px 0px 10px;
-}
-
-#grid {
-  display: grid;
-  grid-template-areas: "a a";
-  gap: 10px;
-  grid-auto-columns: 555px;
-}
-
 /* css for buttons end */
 
 .image-container {
