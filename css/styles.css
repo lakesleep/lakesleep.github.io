@@ -79,6 +79,11 @@ img {
   text-shadow: white 0px 0px 10px;
 }
 
+#grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* css for buttons end */
 
 .image-container {
