@@ -37,23 +37,74 @@
 </menu>
 
 <div class="content">
-<h2>photography</h2>
-<p>
+<h2>photos - caribbean</h2>
+<p></p>
 <p id="bordertopwhite"></p>
-<p>
-<p>photographs taken on 35mm film.</p>
-<p><a href="morocco.html">morocco</a><a href="caribbean.html">caribbean</a></p>
+<p></p>
+<p>film photos taken while sailing in the caribbean</p>
 <p>
 <img 
-    src="img/ourchainhasbeenbroken.jpg" 
+    src="img/caribbean/abandonedresort.jpg" 
     width="1200" 
     height="auto"
     class="responsive"
     style="object-fit: scale-down;"
-    alt="our chain has been broken"/>
+    alt="abandoned resort"/>
+</p>
 <p>
-our chain has been broken - holt cemetery, new orleans, 2022
+<img 
+    src="img/caribbean/caribbeanbando.jpg" 
+    width="1200" 
+    height="auto"
+    class="responsive"
+    style="object-fit: scale-down;"
+    alt="caribbean bando"/>
+</p>
 <p>
+<img 
+    src="img/caribbean/mtsaba.jpg" 
+    width="1200" 
+    height="auto"
+    class="responsive"
+    style="object-fit: scale-down;"
+    alt="the top of mt saba"/>
+</p>
+<p>
+<img 
+    src="img/caribbean/lighthouse.jpg" 
+    width="1200" 
+    height="auto"
+    class="responsive"
+    style="object-fit: scale-down;"
+    alt="lighthouse swarmed with vultures"/>
+</p>
+<p>
+<img 
+    src="img/caribbean/islandcelltower.jpg" 
+    width="1200" 
+    height="auto"
+    class="responsive"
+    style="object-fit: scale-down;"
+    alt="cell tower with vultures perched atop"/>
+</p>
+<p>
+<img 
+    src="img/caribbean/howlsmovingcastle.jpg" 
+    width="1200" 
+    height="auto"
+    class="responsive"
+    style="object-fit: scale-down;"
+    alt="rusty wreck of a ship"/>
+</p>
+<p>
+<img 
+    src="img/caribbean/lostestigos.jpg" 
+    width="1200" 
+    height="auto"
+    class="responsive"
+    style="object-fit: scale-down;"
+    alt="the beach of a small caribbean island"/>
+</p>
 <p>
 <p>
 <br>
