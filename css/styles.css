@@ -41,8 +41,7 @@ body    {
 .longtext {
     text-align:left;
     max-width: 800px;
-    display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
 img {
