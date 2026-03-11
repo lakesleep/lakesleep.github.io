@@ -40,7 +40,7 @@ body    {
 
 .longtext {
     text-align:left;
-    max-width: fit-content(800px);
+    max-width: 800px;
 }
 
 img {
