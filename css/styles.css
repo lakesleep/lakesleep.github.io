@@ -39,10 +39,9 @@ body    {
 }
 
 .longtext {
-    padding: 10px;
     text-align:right;
-    display: flex;
-    align-items: center;
+    display: grid;
+    place-content: center;
     max-width: fit-content(800px);
 }
 
