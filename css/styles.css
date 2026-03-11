@@ -39,9 +39,7 @@ body    {
 }
 
 .longtext {
-    text-align:right;
-    display: grid;
-    place-content: center;
+    text-align:left;
     max-width: fit-content(800px);
 }
 
