@@ -1,6 +1,6 @@
 body    {
     
-    font-family: "FT88-italic", "FT88", garamond, "Times New Roman", serif;
+    font-family: "FT88-italic", "FT88", "garamond", "Times New Roman", serif;
     font-style:italic;
     color:#a39898;
     font-size:13pt;
@@ -43,6 +43,8 @@ body    {
     text-align:left;
     max-width: 800px;
     margin: auto;
+    font-family: "FT88", "garamond", "Times New Roman", serif;
+    font-style:italic;
 }
 
 img {
