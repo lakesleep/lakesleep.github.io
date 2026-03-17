@@ -60,7 +60,7 @@ img {
 
 .container {
   position: relative;
-  display: block;
+  display: inline-block;
   color: #f3efe5;
   object-fit: scale-down;
 }
