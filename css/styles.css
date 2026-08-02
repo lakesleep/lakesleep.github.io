@@ -99,6 +99,13 @@ a:hover {
     color:#564D4D;
 }
 
+a.daisy {
+    font-family:"serif";
+    font-weight:normal;
+    text-decoration:none;
+    color:#6F6262;
+}
+
 @font-face {
     font-family: "FT88";
     src: url("fonts/FT88-Regular.woff2") format('woff2');
