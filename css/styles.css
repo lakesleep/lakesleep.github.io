@@ -20,7 +20,6 @@ body    {
 
 .menu li {
     display:inline;
-    align-items:center;
     border: 2px solid #a39898;
     padding: 6px;
     letter-spacing:2px;
