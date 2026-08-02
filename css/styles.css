@@ -103,6 +103,8 @@ a.daisy {
     font-family:"serif";
     font-style:italic;
     text-decoration:none;
+    font-size:14pt;
+    line-height:14pt;
     color:#6F6262;
 }
 
